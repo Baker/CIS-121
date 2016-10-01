@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
 double a;
-
 	int main()
 	{
 		cout << "enter a decimals: " ;
@@ -11,8 +9,7 @@ double a;
 		return a;
 
 	}
-	int nodecimal()
-	{
-		int intergerPart = (int)a;
-		return a;
+	int noDecimal(double a) 
+	{ 
+		return static_cast<int>(a); 
 	}
